@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "allowJs": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["ESNext", "ES2021", "dom"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}
